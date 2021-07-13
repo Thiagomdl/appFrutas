@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './footer/footer.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { ListaFrutasComponent } from './view/lista-frutas/lista-frutas.component';
 
 
 
@@ -15,7 +16,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ListaFrutasComponent
   ],
   imports: [
     BrowserModule,
