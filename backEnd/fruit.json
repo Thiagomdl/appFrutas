@@ -2,19 +2,21 @@
     "fruit": [
         {
             "name": "Melancia",
-            "quantidade": 0
+            "quantidade": 100
         },
         {
             "name": "Abacaxi",
-            "quantidade": 0
+            "quantidade": 125
+
         },
         {
             "name": "Maçã",
             "quantidade": 0
+
         },
         {
             "name": "Laranja",
-            "quantidade": 0
+            "quantidade": 70
         }
     ]
 }
