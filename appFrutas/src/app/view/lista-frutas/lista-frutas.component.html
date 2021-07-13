@@ -1,14 +1,40 @@
 <div class="container">
 
-  <div class="header-frutas">
+  <div class="header-fruits">
 
-    <h1>O Aplicativo da Fruta</h1>
-
+    <h1> O Aplicativo da Fruta </h1>
     <h4>As frutas são fontes de vitaminas, minerais, fibras e antioxidantes
         de extrema importância para o funcionamento do nosso organismo.
     </h4>
 
-    <h1>Lista de Frutas</h1>
+    <h1 class="List">Lista de Frutas</h1>
     <hr>
+
+    <div class="card" *ngFor="let frutas of fruit">
+      <div class="row">
+        <div class="col">
+          {{frutas.name}}
+        </div>
+        <div class="col">
+          Quantidade:
+          {{frutas.quantidade == 0 ? "Não disponível" : frutas.quantidade}}
+        </div>
+        <div class="col material-icons">
+          add_circle_outline
+          remove_circle_outline
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </div>
+
+
+
+
+
+
+
+
 
